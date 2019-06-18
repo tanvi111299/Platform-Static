@@ -1,0 +1,69 @@
+// @source http://smacss.com/book/type-state
+//
+// State Rules
+//
+// A state is something that augments and overrides all other styles.
+// For example, an accordion section may be in a collapsed or expanded state.
+// A message may be in a success or error state.
+//
+// States are generally applied to the same element as a layout rule or
+// applied to the same element as a base module class.
+
+// ==========================================================================
+// $States
+// ==========================================================================
+
+/***************************
+navbar -responsive
+************************************/
+@media screen and (max-width: 900px) {
+section{
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+  padding: 0 5px;
+}
+.logo{
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+}
+.header-quotation{
+  width: 80%;
+  height: 70%;
+}
+#logo-quote{
+  margin-top: 5px;
+  padding: 5px;
+}
+.logo-text{
+  font-size: 1.7rem;
+  margin-top: -8px;
+}
+.logo-text2{
+  font-size: 1.4rem;
+  margin-bottom: -8px;
+}
+.logo-text1{
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+#demo{
+  font-size: 2.8rem;
+  margin: 0;
+  padding: 5px;
+}
+#moto-text{
+  margin: 0;
+  padding:5px;
+  font-size: 2.8rem;
+}
+.navbar-link{
+  right: -100px;
+  &:hover{
+    right: -50px;
+    }
+  }
+
+}

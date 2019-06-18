@@ -1,0 +1,4 @@
+# style setup
+
+sass:
+  style: compact
